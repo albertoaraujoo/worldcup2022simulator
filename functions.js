@@ -21,6 +21,8 @@ function second (e) {
     let firstPosition = document.getElementById(`16_g${getIdNumber}t2`);
 
     firstPosition.innerHTML = roundOf16Positions[getIdNumber].t2Flag + roundOf16Positions[getIdNumber].t2 
+
+    // e.target.style.backgroundColor = '#00cfb7';
      
 }
 
