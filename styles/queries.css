@@ -1,0 +1,27 @@
+@media (max-width: 425px) {
+
+#main {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 100px;
+}
+
+.tips{
+    text-align: center;
+}
+
+#elimination{
+    display: block;
+    /* grid-template-columns: 100%; */
+    
+}
+
+}
+
+@media (max-width: 375px){
+
+    #main{
+        grid-template-columns:1fr;
+        width: 90%;
+    }
+
+}

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="./styles/style.css" rel="stylesheet">
+    <link href="./styles/queries.css" rel="stylesheet">
+    <title>World Cup Simulator</title>
+</head>
+
+<body>
+    <h3 id="toptitle">WORLD CUP 2022 SIMULATOR</h3>
+    <p class="tips">Click on every left or right button of each country in
+    the groups to set them as first or second position for round of 16.
+    </p>
+
+    <main id='main'>
+
+    </main>
+
+    <p class="tips">Click in any country to send it to the next stage.</p>
+
+    <section id="elimination">
+        
+        
+        <section class="roundOf16">
+
+            Round of 16 
+
+            <div class="roundOf16-matches">
+                <div id="16_g0t1" class="r16-g1 roundOf16Cards"></div>
+                <div class = 'x' >x</div>
+                <div id="16_g1t2" class="r16-g1 roundOf16Cards"></div>
+            </div>
+    
+            <div id="g2" class="roundOf16-matches">
+                <div id="16_g2t1" class="r16-g2 roundOf16Cards" ></div>
+                <div class = 'x'>x</div>
+                <div id="16_g3t2" class="r16-g2 roundOf16Cards"></div>
+            </div>
+    
+            <div id="g3" class="roundOf16-matches">
+                <div id="16_g4t1" class="r16-g3 roundOf16Cards"></div>
+                <div class = 'x'>x</div>
+                <div id="16_g5t2" class="r16-g3 roundOf16Cards"></div>
+            </div>
+    
+            <div id="g4" class="roundOf16-matches">
+                <div id="16_g6t1" class="r16-g4 roundOf16Cards"></div>
+                <div class = 'x'>x</div>
+                <div id="16_g7t2" class="r16-g4 roundOf16Cards"></div>
+            </div>
+    
+            <div id="g5" class="roundOf16-matches">
+                <div id="16_g1t1" class="r16-g5 roundOf16Cards"></div>
+                <div class = 'x'>x</div>
+                <div id="16_g0t2" class="r16-g5 roundOf16Cards"></div>
+            </div>
+    
+            <div id="g6" class="roundOf16-matches">
+                <div id="16_g3t1" class="r16-g6 roundOf16Cards"></div>
+                <div class = 'x'>x</div>
+                <div id="16_g2t2" class="r16-g6 roundOf16Cards"></div>
+            </div>
+    
+            <div id="g7" class="roundOf16-matches">
+                <div id="16_g5t1" class="r16-g7 roundOf16Cards"></div>
+                <div class = 'x'>x</div>
+                <div id="16_g4t2" class="r16-g7 roundOf16Cards"></div>
+            </div>
+    
+            <div id="g8" class="roundOf16-matches">
+                <div id="16_g7t1" class="r16-g8 roundOf16Cards"></div>
+                <div class = 'x'>x</div>
+                <div id="16_g6t2" class="r16-g8 roundOf16Cards"></div>
+            </div>
+    
+    
+        </section>
+
+        
+        <section id="quarterAndSemiFinals" class="roundOf16">
+
+            Quarter Finals
+
+            <div class="roundOf16-matches">
+                <div id="qF-g1" class="qF-g1 qfTeams"></div>
+                <div class = 'x'>x</div>
+                <div id="qF-g2" class="qF-g1 qfTeams"></div>
+            </div>
+
+            <div class="roundOf16-matches">
+                <div id="qF-g3" class="qF-g2 qfTeams"></div>
+                <div class = 'x'>x</div>
+                <div id="qF-g4" class="qF-g2 qfTeams"></div>
+            </div>
+
+            <div class="roundOf16-matches">
+                <div id="qF-g5" class="qF-g3 qfTeams"></div>
+                <div class = 'x'>x</div>
+                <div id="qF-g6" class="qF-g3 qfTeams"></div>
+            </div>
+
+            <div class="roundOf16-matches ">
+                <div id="qF-g7" class="qF-g4 qfTeams"></div>
+                <div class = 'x'>x</div>
+                <div id="qF-g8" class="qF-g4 qfTeams"></div>
+            </div>
+            
+            <br>
+           
+            <section id="semiFinals">
+
+                Semi finals
+
+                <div class="roundOf16-matches">
+                    <div id="sf-t1" class="sf-g1 sfTeams"></div>
+                    <div class = 'x'>x</div>
+                    <div id="sf-t2" class="sf-g1 sfTeams"></div>
+                </div>
+    
+                <div class="roundOf16-matches">
+                    <div id="sf-t3" class="sf-g2 sfTeams"></div>
+                    <div class = 'x'>x</div>
+                    <div id="sf-t4" class="sf-g2 sfTeams"></div>
+                </div>
+                
+            </section>
+        </section>
+    </section>
+<br>
+    <section id="final">
+
+            Final
+
+        <div class="roundOf16-matches">
+            <div id="f-t1" class="finalists"></div>
+            <div class = 'x16teams'>x</div>
+            <div id="f-t2" class="finalists"></div>
+        </div>
+
+    </section>
+
+    <br>
+
+    <section id="champion" class="roundOf16-matches"> </section>
+
+       
+
+
+    <script src="./groups.js"></script>
+    <script src="./functions.js"></script>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>

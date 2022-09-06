@@ -1,0 +1,156 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #8b1638;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px;
+    max-width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.groups{
+    display: grid;
+    align-content: center;
+    text-indent: 5px;
+    flex-direction: column;
+    border-radius: 10px;
+    border: solid white 0.5px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.groupTeams{
+    display: grid;
+    grid-template-columns: 0.5fr 5fr 1fr 1fr;
+    grid-template-rows: 5px 5px 5px 5px ;
+    background-color: #8b1638;
+    justify-content: center;
+    font-size: 0.5rem;
+    font-weight: 700;
+    border-radius: 10px;
+    color: #edeee4;
+   
+}
+.flags{
+    display: flex;
+    width: 18px;
+    height: 18px;
+    margin-left: 10px;
+}
+
+button{
+    font-size: 0.6rem;
+    text-align:center;
+    border-radius: 25px;
+    width:16px;
+    height: 16px;
+    margin-left: 5px;
+    border: none;
+}
+
+button:focus{
+    background-color: #00cfb7;
+}
+
+button:hover{
+    background-color: #00cfb7;
+    border: solid white 1px;
+    cursor: pointer;
+}
+
+
+.roundOf16{
+    display: flex; 
+    flex-direction: column;
+    
+}
+
+.roundOf16-matches{
+    display: flex;
+    flex-direction:row;
+    background-color: #eeeee5;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    text-indent: 10px;
+    font-size: 0.8rem;
+    border-radius: 20px;
+    color: #35230f;
+}
+
+.roundOf16Cards, .qfTeams, .sfTeams, .finalists, .champ{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.roundOf16Cards:hover, .qfTeams:hover, .sfTeams:hover, .finalists:hover{
+    background-color: #00cfb7;
+    border-radius:10px;
+    width:80%;
+    justify-content: center;
+    cursor:pointer;
+}
+
+#elimination{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    margin-top: 10px;
+    color: #ffff;
+}
+
+.x{
+    color: rgb(151, 149, 149);
+    font-size: 0.7rem;
+}
+#final{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: #eeeee5;
+}
+
+#champion{
+    width: 350px;
+    height: 50px;
+    font-size:1rem;
+    background: rgb(222,236,236);
+    background: radial-gradient(circle, rgba(222,236,236,1) 0%, rgba(217,167,16,1) 98%);
+}
+
+#champion:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    font-size: 1.2rem;
+    cursor:pointer;
+}
+
+#toptitle{
+    color: #eeeee5;
+    margin-top:0;
+}
+
+.tips{
+    font-size: 0.5rem;
+    color: #eeeee5;
+    opacity: 0.5;
+}
+
+
+
+
+
+
+
