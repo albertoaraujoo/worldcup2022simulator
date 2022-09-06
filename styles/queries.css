@@ -1,3 +1,33 @@
+@media (min-width: 954px){
+
+    #main{
+      width: 100%;
+      grid-template-rows: 150px 150px;
+    }  
+
+    #toptitle{
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 1024px){
+
+    .roundOf16-matches{
+        width: 350px;
+    }
+
+    #final{
+
+        width:350px
+    }
+
+    #champion {
+        width: 400px;
+    }
+
+}
+
+
 @media (max-width: 425px) {
 
 #main {
@@ -25,3 +55,4 @@
     }
 
 }
+
